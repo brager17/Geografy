@@ -35,5 +35,12 @@ namespace Geograf_y
             return
                 $"INSERT INTO ChangeLocation (Id,PeopleId,Longitude,Latitude,Date) VALUES({Id},{PeopleId},{LongitudeFormat},{LatitudeFormat},'{Date:dd-MM-yyyy HH:mm:ss}')";
         }
+
+        public string UpdatePosition(decimal longitude, decimal latitude)
+        {
+            Longitude = longitude;
+            Latitude = latitude;
+            return $"Update ChangeLocation SET Longitude = {LongitudeFormat},Latitude={LatitudeFormat} where Id = {Id}";
+        }
     }
 }
