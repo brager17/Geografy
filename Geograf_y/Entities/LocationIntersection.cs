@@ -1,4 +1,4 @@
-namespace Geograf_y
+namespace Geograf_y.Entities
 {
     public class LocationIntersection
     {

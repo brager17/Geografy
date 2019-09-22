@@ -1,8 +1,7 @@
-using System.Collections.Generic;
-using System.Linq;
+using Geograf_y.Infrastructure;
 using Xunit;
 
-namespace Geograf_y
+namespace Geograf_y.Tests
 {
     public class FunctionTests : DatabaseTests
     {

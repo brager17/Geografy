@@ -1,6 +1,4 @@
-using System.Reflection.Emit;
-
-namespace Geograf_y.Base
+namespace Geograf_y.Entities.Base
 {
     public interface ICanInsert
     {

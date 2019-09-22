@@ -1,7 +1,7 @@
 using System;
-using Geograf_y.Base;
+using Geograf_y.Entities.Base;
 
-namespace Geograf_y
+namespace Geograf_y.Entities
 {
     public class ChangeLocation : ICanInsert
     {

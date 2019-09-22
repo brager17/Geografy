@@ -1,7 +1,9 @@
 using System;
+using Geograf_y.Entities;
+using Geograf_y.Infrastructure;
 using Xunit;
 
-namespace Geograf_y
+namespace Geograf_y.Tests
 {
     public class TriggerTests : DatabaseTests
     {
