@@ -8,6 +8,7 @@
 
     <ItemGroup>
         <Content Include="xunit.runner.json" CopyToOutputDirectory="true"></Content>
+        <PackageReference Include="FsCheck.Xunit" Version="3.0.0-alpha4" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
         <PackageReference Include="System.Data.SqlClient" Version="4.7.0-rc1.19456.4" />
         <PackageReference Include="xunit" Version="2.4.0" />
